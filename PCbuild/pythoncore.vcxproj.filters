@@ -639,6 +639,7 @@
     <ClInclude Include="$(zlibDir)\zutil.h">
       <Filter>Modules\zlib</Filter>
     </ClInclude>
+    <ClInclude Include="..\Include\internal\pycore_structseq.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Modules\_abc.c">
@@ -1213,6 +1214,10 @@
     </ClCompile>
     <ClCompile Include="..\Objects\unionobject.c">
       <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Python\suggestions.c" />
+    <ClCompile Include="..\Modules\getbuildinfo.c">
+      <Filter>Modules</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

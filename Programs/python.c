@@ -2,6 +2,8 @@
 
 #include "Python.h"
 
+#define Py_NO_ENABLE_SHARED 1
+
 #ifdef MS_WINDOWS
 int
 wmain(int argc, wchar_t **argv)

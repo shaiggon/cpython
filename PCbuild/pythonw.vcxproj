@@ -91,6 +91,9 @@
     <Link>
       <StackReserveSize>2000000</StackReserveSize>
     </Link>
+    <ClCompile>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MultiThreaded</RuntimeLibrary>
+    </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ResourceCompile Include="..\PC\pythonw_exe.rc" />
